@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="./WebScrapingCss.css">
+    <title>
+        test Iframe LocalHost
+    </title>
+</head>
+
+<script src="Webscraping.js"></script>
+
+<body>
+    <div class="div_parent">
+        <div class="div_iframe">
+            <iframe id="hmi_iframe" src="http://localhost:32771/" height="720" width="960" title="description"></iframe>
+        </div>
+
+
+        <!--<button onclick="testEcho()">Get Plot Info</button>-->
+        <div class="div_get_info_OpenFMB">
+            
+            <button class="button_openFMB" id="button_get_data">Get Plot Info</button>
+            <p></p>
+            <label for="browser">Choose the Plot from the list:</label>
+            <select id="list_topics_OpenFMB">
+                <!-- <option value="topic1">topic1</option>
+                <option value="topic1">topic2</option>
+                <option value="topic1">topic3</option>
+                <option value="topic1">topic4</option> -->
+            </select>
+            <p></p>
+            <button class="button_openFMB" id='button_plot_data'>Plot Data</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<!--//*[@id="graphContainer"]/svg/g-->
+<!-- //*[@id="rightside-content-hold"]/div/app-home/div/div/button[1] -->

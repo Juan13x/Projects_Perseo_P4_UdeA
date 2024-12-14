@@ -1,0 +1,26 @@
+iframe {
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+
+.div_parent {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.div_iframe {
+    flex: 1;
+}
+
+.button_openFMB{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.div_get_info_OpenFMB {
+    flex: 1;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
